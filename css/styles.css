@@ -518,7 +518,7 @@ border: 1px solid #FFFFFF;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
-    display: block;
+    display: flex;
     min-width: 165px;
     height: 40px;
     border: none;
@@ -535,6 +535,10 @@ border: 1px solid #FFFFFF;
 
 .subscribe-btn:focus {
     background-color: #404bbf;
+}
+.social-icons-submit{
+    margin-left: 16px;
+    fill: #f4f4fd;
 }
 .backdrop{
     position: fixed;
@@ -642,9 +646,7 @@ gap: 8px;
 .form-input-comment{
     margin-bottom: 16px;
     padding-left: 24px;
-        padding-right: 24px;
-        margin-bottom: 8px;
-        width: 100%;
+    padding-right: 24px;
         
     
 }
