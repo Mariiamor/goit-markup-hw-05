@@ -639,6 +639,15 @@ justify-content: flex-start;
 flex-direction: column;
 gap: 8px;
 }
+.form-input-comment{
+    margin-bottom: 16px;
+    padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 8px;
+        width: 100%;
+        
+    
+}
 .input-form{
     display: inline-block;
     position: relative;
@@ -660,9 +669,11 @@ gap: 8px;
 .input-form-text:focus,
 .input-form-text:active{
     border-color: #4D5AE5;
-    fill: #4D5AE5;
     outline: none;
 }
+.input-form-text:focus+.input-icon {
+    fill: #4D5AE5;}
+
 .input-form:hover .input-icon,
 .input-form:focus .input-icon,
 .input-form:active .input-icon{
