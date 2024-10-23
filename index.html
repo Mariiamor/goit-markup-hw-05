@@ -549,15 +549,17 @@
             autocomplete="off"
             novalidate
           >
+            <label for="modal-email-form" class="modal-subscribe"></label>
             <input
-              type="text"
+              type="email"
               class="email-form"
               name="email"
+              id="modal-email-form"
               placeholder="E-mail"
             />
             <button type="submit" class="subscribe-btn">
               Subscribe
-              <svg class="social-icons" width="24" height="20">
+              <svg class="social-icons" width="24" height="24">
                 <use href="./images/sendplaneicone.svg#icon-sendplane"></use>
               </svg>
             </button>
@@ -567,7 +569,7 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg class="input-close" width="8" height="8">
             <use href="./images/icons.svg#icon-closeinpute"></use>
           </svg>
@@ -580,7 +582,7 @@
               <input
                 class="input-form-text"
                 type="text"
-                name="user-text"
+                name="user-name"
                 id="user-name"
                 autofocus
               />
@@ -619,7 +621,6 @@
           </div>
           <div class="form-input">
             <label for="user-comment" class="modal-text-form">Comment</label>
-            <div class="input-form">
               <textarea
                 class="text-input"
                 name="user-comment"
@@ -631,11 +632,11 @@
               <input
                 type="checkbox"
                 class="visually-hidden"
-                name="accept-terms"
-                id="accept-terms"
+                name="user-privacy"
+                id="user-privacy"
                 value="true"
               />
-              <label for="accept-terms" class="checkbox-form">
+              <label for="user-privacy" class="checkbox-form">
                 <span class="checkbox-true">
                   <svg class="checkbox-vector" width="10" height="8">
                     <use href="./images/icons.svg#icon-vector-icon"></use>
