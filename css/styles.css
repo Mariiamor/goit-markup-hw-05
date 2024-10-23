@@ -633,8 +633,6 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 }
 .form-input{
-    padding-left: 24px;
-    padding-right: 24px;
     margin-bottom: 8px;
     width: 100%;
     display: flex;
@@ -645,9 +643,6 @@ gap: 8px;
 }
 .form-input-comment{
     margin-bottom: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
-        
     
 }
 .input-form{
